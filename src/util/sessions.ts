@@ -90,12 +90,12 @@ export class SessionStateHandler {
 }
 
 export const getFullNumber = (number: string) => {
-  if (number.length < 10) {
+  if (number.length === 10) {
     return number
   }
   // @ts-ignore
   let fullNumber = `+${phoneStore.getState().sipAccounts.sipAccount._config.defaultCountryCode}${number}`
-  if (number.includes('+') && number.length === 10) {
+  if (number.includes('+') && number.length === 9) {
     fullNumber = `${number}`
   }
   console.log(fullNumber)

@@ -1,10 +1,10 @@
 {
-  "name": "react-sip-phone",
+  "name": "@duc1607/react-sip-phone",
   "version": "1.0.0",
   "description": "SIP phone component for use in react projects",
-  "author": "JaonL",
+  "author": "duc1607",
   "license": "MIT",
-  "repository": "OpenTelecom/react-sip-phone",
+  "repository": "mybabysexy/react-sip-phone",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",

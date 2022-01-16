@@ -25,6 +25,8 @@ export const phoneStore = defaultStore
 
 export const ReactSipPhone = ({
   name,
+  width = 300,
+  height = 600,
   phoneConfig,
   sipConfig,
   appConfig,
@@ -44,6 +46,8 @@ export const ReactSipPhone = ({
           <div className={styles.container}
             style={{
               ...containerStyle,
+              width: `${width < 300 ? 300 : width}px`,
+              height: `${height < 600 ? 600 : height}px`
             }}
           >
             <Status

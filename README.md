@@ -1,5 +1,8 @@
 # react-sip-phone
 
+## Note
+This is a fork from original react-sip-phone with pulled commits from areski and my own modifications!
+
 > SIP phone component for use in react projects
 
 [![NPM](https://img.shields.io/npm/v/react-sip-phone.svg)](https://www.npmjs.com/package/react-sip-phone) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
